@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <title>Riwayat Penjualan Riz-To Snack</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    body {
+      background-color: #ffeb3b;
+      font-family: Arial, sans-serif;
+      padding: 10px;
+      margin: 0;
+    }
+    .logo {
+      text-align: center;
+      margin-bottom: 10px;
+    }
+    .logo img {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      object-fit: cover;
+      box-shadow: 0 0 8px rgba(0,0,0,0.2);
+    }
+    h1 {
+      text-align: center;
+      font-size: 1.3rem;
+      margin-bottom: 10px;
+    }
+    .date-inputs {
+      display: flex;
+      gap: 5px;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin: 10px 0;
+    }
+    .date-inputs input {
+      flex: 1 1 45%;
+      padding: 5px;
+      font-size: 0.9rem;
+    }
+    .table-container {
+      width: 100%;
+      overflow-x: auto; /* Scroll horizontal */
+      border-radius: 8px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    }
+    table {
+      min-width: 600px;
+      width: 100%;
+      border-collapse: collapse;
+      background: white;
+      font-size: 0.9rem;
+    }
+    table th, table td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: center;
+    }
+    table th {
+      background-color: #ffe082;
+      font-weight: bold;
+    }
+    table tr:nth-child(even) {
+      background: #fffde7;
+    }
+    table tr:last-child td {
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <div class="logo">
+    <img src="logoriztosnack.jpeg" alt="Logo Riz-To Snack">
+  </div>
+
+  <h1>Riwayat Penjualan</h1>
+
+  <div class="date-inputs">
+    <input type="date" value="2025-06-19" />
+    <input type="date" value="2025-06-21" />
+  </div>
+
+  <div class="table-container">
+    <table>
+      <thead>
+        <tr>
+          <th>No</th>
+          <th>Tanggal</th>
+          <th>Nama Makanan</th>
+          <th>Harga</th>
+          <th>Jumlah</th>
+          <th>Total</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>19-06-2025</td>
+          <td>Brambang Goreng</td>
+          <td>Rp. 15.000</td>
+          <td>1</td>
+          <td>Rp. 15.000</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>20-06-2025</td>
+          <td>Peyek 5 Lt</td>
+          <td>Rp. 50.000</td>
+          <td>1</td>
+          <td>Rp. 50.000</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>21-06-2025</td>
+          <td>Peyek 100 Gram</td>
+          <td>Rp. 10.000</td>
+          <td>1</td>
+          <td>Rp. 10.000</td>
+        </tr>
+        <tr>
+          <td colspan="5">Total</td>
+          <td>Rp. 75.000</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</body>
+</html>
